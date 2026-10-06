@@ -7,10 +7,13 @@ authors = [
     { name = "e-menut-ece", email = "edouardmenut04@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "faker>=40.37.0",
+]
 
 [project.scripts]
-ece-big-data-2026-2027 = "ece_big_data_2026_2027:main"
+dataset-users = "ece_big_data_2026_2027.dataset_users:main"
+dataset-orders = "ece_big_data_2026_2027.dataset_orders:main"
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
