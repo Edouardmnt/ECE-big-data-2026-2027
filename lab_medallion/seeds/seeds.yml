@@ -1,0 +1,10 @@
+seeds:
+  - name: states
+    description: Codes of the US states, territories and military regions.
+  - name: zip_prefixes
+    description: Ranges of 3-digit ZIP prefixes assigned to each state by USPS (approximate).
+    config:
+      column_types:
+        state: varchar
+        prefix_min: integer
+        prefix_max: integer
