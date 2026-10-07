@@ -8,3 +8,7 @@ init.sql
 *.duckdb.wal
 *.duckdb.wal
 *.bin
+target/
+dbt_packages/
+logs/
+*.duckdb
